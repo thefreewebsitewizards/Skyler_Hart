@@ -1619,6 +1619,41 @@ p {
   transform: translateY(-2px);
 }
 
+.footer-bottom {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #222;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.footer-bottom::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -2rem;
+  right: -2rem;
+  height: 1px;
+  background: #222;
+}
+
+.footer-credit {
+  font-size: 0.75rem;
+  color: #666;
+  margin: 0;
+}
+
+.footer-credit a {
+  color: #999;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-credit a:hover {
+  color: #f5f5f5;
+}
+
 .social-link svg {
   width: 20px;
   height: 20px;
